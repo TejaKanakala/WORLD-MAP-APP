@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  #search {
+    position: absolute;
+    z-index: 1000;
+    top: 10px;
+    left: 10px;
+    padding: 8px;
+    width: 250px;
+  }
+  
+  #map {
+    height: 90vh;
+    width: 100%;
+  }
+  
+  #info {
+    padding: 10px;
+    background: #f4f4f4;
+  }
+  
