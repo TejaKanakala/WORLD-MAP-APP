@@ -1,39 +1,166 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Interactive World Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+
+    #map {
+      height: 100vh;
+      width: 100vw;
+    }
+
+    #info-box {
+      position: absolute;
+      top: 70px;
+      right: 10px;
+      background: rgba(255,255,255,0.95);
+      padding: 16px;
+      border: 2px solid #333;
+      border-radius: 10px;
+      z-index: 1000;
+      min-width: 240px;
+      font-size: 18px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .flag {
+      height: 50px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    #search-bar {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1000;
+    }
+
+    #country-search {
+      padding: 10px;
+      font-size: 16px;
+      width: 260px;
+      border: 1px solid #aaa;
+      border-radius: 8px;
+      outline: none;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+  </style>
+</head>
+<body>
+  <div id="search-bar">
+    <input type="text" id="country-search" placeholder="Search for a country..." />
+  </div>
+
+  <div id="info-box">Click on a country</div>
+
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html> -->
+
+
+
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>World Map Info</title>
+  <title>Interactive World Map</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <style>
-    body, html { margin: 0; height: 100%; }
-    #map { height: 100vh; }
-    #info-box {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background: rgba(255,255,255,0.95);
-  padding: 16px;
-  border: 2px solid #333;
-  border-radius: 10px;
-  z-index: 1000;
-  min-width: 240px;
-  font-size: 18px;         /* Increased font size */
-  font-family: Arial, sans-serif;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-}
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
 
-.flag {
-  height: 50px;            /* Increased flag size */
-  margin-top: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
+    #map {
+      height: 100vh;
+      width: 100vw;
+    }
+
+    #info-box {
+      position: absolute;
+      top: 60px;
+      right: 10px;
+      background: rgba(255,255,255,0.95);
+      padding: 16px;
+      border: 2px solid #333;
+      border-radius: 10px;
+      z-index: 1000;
+      min-width: 240px;
+      font-size: 18px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .flag {
+      height: 50px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    #search-bar {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1000;
+      padding: 8px;
+      background: rgba(255,255,255,0.95);
+      border-radius: 0 0 8px 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    #country-search {
+      padding: 10px;
+      font-size: 16px;
+      width: 260px;
+      border: 1px solid #aaa;
+      border-radius: 8px;
+      outline: none;
+    }
+
+    datalist option {
+      font-size: 16px;
+    }
   </style>
 </head>
 <body>
+  <div id="search-bar">
+    <input type="text" id="country-search" placeholder="Search for a country..." list="country-list" />
+    <datalist id="country-list"></datalist>
+  </div>
+
+  <div id="info-box">Click or search a country</div>
+
   <div id="map"></div>
-  <div id="info-box">Click on a country</div>
+
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script src="script.js"></script>
 </body>
-</html>
+</html> -->
+
+
+
+
+
+
+
+
