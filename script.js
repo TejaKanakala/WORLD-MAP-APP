@@ -92,17 +92,7 @@ let selectedLayer;
 let geoJsonLayer;
 const countryList = [];
 const nameFixes = {
-  "usa": "United States",
-  "us": "United States",
-  "uk": "United Kingdom",
-  "uae": "United Arab Emirates",
-  "south korea": "Korea (Republic of)",
-  "north korea": "Korea (Democratic People's Republic of)",
-  "czech republic": "Czechia",
-  "russia": "Russian Federation",
-  "viet nam": "Vietnam",
-  "ivory coast": "Côte d'Ivoire",
-  "swaziland": "Eswatini"
+
 };
 
 function normalizeCountryInput(input) {
